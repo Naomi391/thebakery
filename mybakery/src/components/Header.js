@@ -1,5 +1,4 @@
 import React from "react";
-// import logo from "../public/assets/images/shefa.png";
 
 const Header = () => {
   return (
@@ -7,7 +6,8 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo and Bakery Name */}
         <div className="flex items-center">
-          <img src="/assets/images/shefa.png"
+          <img
+            src="/assets/images/logoz.png"
             alt="Shefa Bakery Logo"
             className="w-10 h-10 rounded-full" // Adjust the size of the logo
           />
@@ -33,6 +33,14 @@ const Header = () => {
                 className="text-gray-700 hover:text-gray-900 font-medium"
               >
                 About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#gallery"
+                className="text-gray-700 hover:text-gray-900 font-medium"
+              >
+                Gallery
               </a>
             </li>
             <li>
